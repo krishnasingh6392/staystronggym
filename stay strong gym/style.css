@@ -1,0 +1,395 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: #172D13;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    border: 2px solid black;
+}
+
+.header:hover {
+    background-color: #D76F30;
+}
+
+#logo img {
+    height: 80px;
+    width: 80px;
+    margin-left: 5px;
+    border-radius: 40%;
+
+}
+
+#logo h5 {
+    padding-left: 5px;
+    font-weight: 900;
+    color: white;
+}
+
+.tag {
+
+    color: rgb(241, 241, 241);
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.tag:hover {
+    color: rgb(43, 43, 43);
+}
+
+#tryusfree {
+    height: 50px;
+    width: 150px;
+    background-color: #D76F30;
+    border-radius: 35%;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+#tryusfree h2 {
+
+    padding-top: 15px;
+    padding-left: 5px;
+    font-size: medium;
+    font-weight: 900;
+    color: aliceblue;
+
+}
+
+#tryusfree:hover {
+    background-color: #6BB77B;
+}
+
+.bg {
+
+    background-color: #6BB77B;
+    display: flex;
+}
+
+.bg img {
+
+    height: 450px;
+    width: auto;
+    border-radius: 30%;
+    border: 4px solid rgb(19, 19, 19);
+    margin-top: 1px;
+
+
+}
+
+#theme {
+
+    height: 350px;
+    width: 800px;
+    background-color: #D76F30;
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 30%;
+    text-decoration: underline;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+#theme:hover {
+    background-color: #172D13;
+
+}
+
+#theme h2 {
+
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: cursive;
+}
+
+#signin-bg {
+    background-color: #172D13;
+    height: 250px;
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+#signin-title1 {
+    background-color: #6BB77B;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 40%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+#signin-title2 {
+    background-color: #D76F30;
+    height: 30px;
+    width: 400px;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 37%;
+    padding-top: 2px;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+#signin-title2 :hover {
+    background-color: rgb(203, 79, 13);
+}
+
+#signup {
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 46%;
+    transition: 1s;
+
+
+}
+
+
+
+#signup h2 {
+    padding-top: 5px;
+    background-color: #6BB77B;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.programs {
+    padding-top: 70px;
+    height: 1200px;
+    width: 100%;
+    background-color: #6BB77B;
+    text-align: center;
+    text-decoration: red double;
+
+}
+
+.programs p {
+    display: flex;
+    padding: 20px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-size: medium;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.corporate {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+#corp-img img {
+    padding-left: 5px;
+    height: 250px;
+    width: 350px;
+    margin-top: 10px;
+}
+
+#corp-para h2 {
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+#corp-para p {
+    background-color: #D76F30;
+    height: 200px;
+    width: 350px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    ;
+}
+
+#corp-para p:hover {
+    background-color: #172D13;
+}
+
+.staystrong-institute {
+    height: 400px;
+    width: 100%;
+    background-color: #172D13;
+    padding-top: 20px;
+}
+
+#institute-heading1 {
+    text-align: center;
+    color: azure;
+    padding: 5px;
+    direction: rtl;
+}
+
+#institute-heading2 {
+    text-align: center;
+    color: rgb(198, 182, 182);
+    ;
+    padding: 5px;
+}
+
+.course {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+#course-image img {
+    height: 150px;
+    width: 200px;
+}
+
+#course-image img:hover {
+    border-radius: 50%;
+    transition: 1s;
+}
+
+
+#knowmore-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#knowmore-button>h2 {
+    background-color: #6BB77B;
+    font-size: 900;
+}
+
+.getintouch-form {
+    background-color: #6BB77B;
+    height: 600px;
+    width: 100%;
+
+}
+
+#form-h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #D76F30;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+#box1 img {
+    margin-top: 5px;
+    height: 550px;
+    width: 400px;
+}
+
+#box2 {
+    margin-top: 5px;
+
+    height: 450px;
+    width: 1000px;
+}
+
+#box2 h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#bg-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D76F30;
+    margin-top: 30px;
+    margin-left: 200px;
+    height: 30px;
+    width: 500px;
+}
+
+#bg-box input::placeholder {
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+#feedback {
+    margin-top: 30px;
+    margin-left: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+#feedback textarea::placeholder {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    color: black;
+}
+
+.btn {
+
+    margin-top: 5px;
+    text-align: center;
+    color: red;
+
+
+}
+
+.btn button {
+    color: black;
+    background-color: #D76F30;
+    height: 30px;
+    width: 100px;
+}
+
+.footer {
+
+    background-color: #172D13;
+    height: 300px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+#fbox {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 150px;
+    width: 200px;
+    color: rgb(242, 240, 240);
+    letter-spacing: 1px;
+    font-size: larger;
+}
+
+#copyright {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: #D76F30;
+    color: aquamarine;
+}
+
+#contact {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
